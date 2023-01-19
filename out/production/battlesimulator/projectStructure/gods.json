@@ -1,0 +1,148 @@
+{
+    "gods": [
+        {
+            "name": "Maui",
+            "health": 2693.00,
+            "attack": 30.00,
+            "specialAttack": 60.00,
+            "defense": 99.40,
+            "specialDefense": 120.30,
+            "speed": 40.00,
+            "mana": 800.00,
+            "pantheon": "Polynesian",
+            "id": 1
+        },
+        {
+            "name": "Achilles",
+            "health": 2445.00,
+            "attack": 78.00,
+            "specialAttack": 25.00,
+            "defense": 87.80,
+            "specialDefense": 70.76,
+            "speed": 50.00,
+            "mana": 690.00,
+            "pantheon": "Greek",
+            "id": 2
+        },
+        {
+            "name": "Apollo",
+            "health": 2250.00,
+            "attack": 92.00,
+            "specialAttack": 20.00,
+            "defense": 74.80,
+            "specialDefense": 40.79,
+            "speed": 70.00,
+            "mana": 600.00,
+            "pantheon": "Greek",
+            "id": 3
+        },
+        {
+            "name": "Ne Zha",
+            "health": 2140.00,
+            "attack": 83.00,
+            "specialAttack": 25.00,
+            "defense": 78.80,
+            "specialDefense": 62.40,
+            "speed": 80.00,
+            "mana": 900.00,
+            "pantheon": "Chinese",
+            "id": 4
+        },
+        {
+            "name": "Pele",
+            "health": 2264.00,
+            "attack": 84.00,
+            "specialAttack": 30.00,
+            "defense": 78.80,
+            "specialDefense": 62.40,
+            "speed": 85.00,
+            "mana": 1040.00,
+            "pantheon": "Polynesian",
+            "id": 5
+        },
+        {
+            "name": "Persephone",
+            "health": 2098.00,
+            "attack": 64.00,
+            "specialAttack": 92.00,
+            "defense": 70.60,
+            "specialDefense": 62.40,
+            "speed": 65.00,
+            "mana": 1380.00,
+            "pantheon": "Greek",
+            "id": 6
+        },
+        {
+            "name": "Agni",
+            "health": 2004.00,
+            "attack": 64.00,
+            "specialAttack": 100.00,
+            "defense": 71.40,
+            "specialDefense": 62.40,
+            "speed": 70.00,
+            "mana": 1155.00,
+            "pantheon": "Hindu",
+            "id": 7
+        },
+        {
+            "name": "Ah Muzen Cab",
+            "health": 2170.00,
+            "attack": 82.00,
+            "specialAttack": 50.00,
+            "defense": 80.80,
+            "specialDefense": 62.40,
+            "speed": 70.00,
+            "mana": 1030.00,
+            "pantheon": "Maya",
+            "id": 8
+        },
+        {
+            "name": "Amaterasu",
+            "health": 2452.00,
+            "attack": 79.00,
+            "specialAttack": 30.00,
+            "defense": 89.20,
+            "specialDefense": 62.40,
+            "speed": 65.00,
+            "mana": 920.00,
+            "pantheon": "Japanese",
+            "id": 9
+        },
+        {
+            "name": "Ao Kuang",
+            "health": 2280.00,
+            "attack": 60.00,
+            "specialAttack": 90.00,
+            "defense": 80.80,
+            "specialDefense": 62.40,
+            "speed": 375.00,
+            "mana": 1000.00,
+            "pantheon": "Chinese",
+            "id": 10
+        },
+        {
+            "name": "Artio",
+            "health": 2700.00,
+            "attack": 68.00,
+            "specialAttack": 75.00,
+            "defense": 98.80,
+            "specialDefense": 62.40,
+            "speed": 365.00,
+            "mana": 990.00,
+            "pantheon": "Celtic",
+            "id": 11
+        },
+        {
+            "name": "Baba Yaga",
+            "health": 2100.00,
+            "attack": 63.00,
+            "specialAttack": 100.00,
+            "defense": 73.40,
+            "specialDefense": 62.40,
+            "speed": 365.00,
+            "mana": 1280.00,
+            "pantheon": "Slavic",
+            "id": 12
+        }
+    ]
+}
