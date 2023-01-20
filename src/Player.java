@@ -23,6 +23,7 @@ public class Player {
     void selectGodsForTeam(){
         Scanner scanner = new Scanner(System.in);
         int chooseGodId;
+        boolean isGodAvailable;
 
         /*
         char answerChar = 'n';
@@ -53,10 +54,21 @@ public class Player {
 
             for(int j = 0; j < listOfAllGods.size(); j++){
                 if(chooseGodId == listOfAllGods.get(j).getId()){
+                    isGodAvailable = true;
                     selectedGods.add(listOfAllGods.get(j));
                     listOfAllGods.remove(j);
                 } else {
-                    // problem here
+                    isGodAvailable = false;
+                    while (!isGodAvailable){
+                        System.out.println("Please pick another one");
+                        chooseGodId = scanner.nextInt();
+
+                        if(chooseGodId == listOfAllGods.get(j).getId()) {
+                            isGodAvailable = true;
+                            selectedGods.add(listOfAllGods.get(j));
+                            listOfAllGods.remove(j);
+                        }
+                    }
                 }
             }
         }
