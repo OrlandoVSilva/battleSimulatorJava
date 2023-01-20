@@ -2,20 +2,20 @@ import java.util.*;
 
 public class Player {
     // --- Properties ---
-    private List<God> arrayOfAllGods; // List of all the gods;
+    private List<God> listOfAllGods; // List of all the gods;
     private List<God> selectedGods; // list for the selected gods;
     // --- Properties ---
 
     // --- Constructor ---
-    Player(List<God> arrayOfAllGods){
-        this.arrayOfAllGods = arrayOfAllGods;
+    Player(List<God> listOfAllGods){
+        this.listOfAllGods = listOfAllGods;
         selectedGods = new ArrayList<>();
     }
     // --- Constructor ---
 
     // --- Getters & Setters ---
     public List<God> getSelectedGods() {
-        return arrayOfAllGods;
+        return listOfAllGods;
     }
     // --- Getters & Setters ---
 
@@ -51,9 +51,12 @@ public class Player {
         for(int i = 0; i <= 5; i++){
             chooseGodId = scanner.nextInt();
 
-            for(int j = 0; j < arrayOfAllGods.size(); j++){
-                if(chooseGodId == arrayOfAllGods.get(j).getId()){
-
+            for(int j = 0; j < listOfAllGods.size(); j++){
+                if(chooseGodId == listOfAllGods.get(j).getId()){
+                    selectedGods.add(listOfAllGods.get(j));
+                    listOfAllGods.remove(j);
+                } else {
+                    // problem here
                 }
             }
         }
@@ -67,8 +70,8 @@ public class Player {
         System.out.println("This is a list, of all the selectable gods: ");
         System.out.println();
 
-        for (int i = 0; i < arrayOfAllGods.size(); i++){
-            System.out.println(arrayOfAllGods.get(i).getName() + " = " + "Id: " + arrayOfAllGods.get(i).getId());
+        for (int i = 0; i < listOfAllGods.size(); i++){
+            System.out.println(listOfAllGods.get(i).getName() + " = " + "Id: " + listOfAllGods.get(i).getId());
         }
         System.out.println();
 
