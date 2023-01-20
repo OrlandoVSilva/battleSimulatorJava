@@ -23,7 +23,6 @@ public class Player {
     void selectGodsForTeam(){
         Scanner scanner = new Scanner(System.in);
         int chooseGodId;
-        int j = 0;
 
         /*
         char answerChar = 'n';
@@ -52,7 +51,11 @@ public class Player {
         for(int i = 0; i <= 5; i++){
             chooseGodId = scanner.nextInt();
 
+            for(int j = 0; j < arrayOfAllGods.size(); j++){
+                if(chooseGodId == arrayOfAllGods.get(j).getId()){
 
+                }
+            }
         }
     }
 
