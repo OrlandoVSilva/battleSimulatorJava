@@ -1,3 +1,5 @@
+package battleSimulatorPackage;
+
 public class God{
     // --- Properties ---
     private final String name;

@@ -143,6 +143,18 @@
             "mana": 1280.00,
             "pantheon": "Slavic",
             "id": 12
+        },
+        {
+            "name": "Arachne",
+            "health": 2283.00,
+            "attack": 82.00,
+            "specialAttack": 50.00,
+            "defense": 82.20,
+            "specialDefense": 62.40,
+            "speed": 375.00,
+            "mana": 1030.00,
+            "pantheon": "Greeek",
+            "id": 13
         }
     ]
 }

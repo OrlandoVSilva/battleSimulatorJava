@@ -1,3 +1,5 @@
+package battleSimulatorPackage;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -14,8 +16,8 @@ public class Launcher {
         godCollection = new ArrayList<>();
     }
 
-    List<God> loadGods(){ // load all gods from Json file into list
-        String strJson = getJSONFromFile("C:\\Users\\OrlandoVSilva\\Desktop\\JavaBattleSimulator\\battlesimulator\\src\\projectStructure\\gods.json");
+    List<God> loadGods(){ // load all battleSimulatorPackage.gods from Json file into list
+        String strJson = getJSONFromFile("C:\\Users\\OrlandoVSilva\\Desktop\\JavaBattleSimulator - Github\\battlesimulator\\src\\battleSimulatorPackage\\projectStructure\\gods.json");
 
         // Try-catch block
         try {
